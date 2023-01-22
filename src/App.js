@@ -11,7 +11,10 @@ function App() {
     <div className="App">
       <AddImage />
       <div className='container wrapper'>
-        <Image image={images[0]} />
+        <div>
+          <h2>Your current image:</h2>
+          <Image image={images[0]} />
+        </div>
         <List data={images} />
       </div>
     </div>

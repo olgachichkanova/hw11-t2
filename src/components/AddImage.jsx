@@ -7,7 +7,6 @@ const AddImage = () => {
     const dispatch = useDispatch();
     const handleAdd = (e) => {
         e.preventDefault();
-        console.log(data)
         dispatch(addImage(data))
     }
     return (

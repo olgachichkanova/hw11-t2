@@ -19,6 +19,11 @@
   justify-content: space-between;
 }
 
+.add_img {
+  margin-top: 50px;
+  border: 1px solid #428ffe;
+}
+
 .img__box {
   width: 200px;
   height: 200px;
